@@ -1,0 +1,127 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    list-style: none;
+}
+
+#judul {
+    margin-left: 22vw;
+    margin-top: 10vh;
+    color: white;
+    font-size: 8vw;
+    font-family: 'Oswald', sans-serif;
+}
+
+#intro {
+    font-family: Arial;
+    font-size: 3vh;
+    margin-left: 35vw;
+    color: white;
+}
+
+#a {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(39, 39, 39, 0.8)), url('/static/main/img/bg.jpg');
+    background-size: cover;
+}
+
+#b {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(39, 39, 39, 0.8)), url(img/bg2.jpg);
+    background-size: cover;
+}
+
+#c {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(39, 39, 39, 0.8)), url(img/bg3.jpg);
+    background-size: cover;
+}
+
+#bgn1 {
+    box-sizing: border-box;
+    box-shadow: 3px 4px 10px black;
+    border-radius: 5px;
+    width: 90vw;
+    height: 30vh;
+    margin-left: 4vw;
+}
+
+#bgn2 {
+    margin-top: 5vh;
+    box-sizing: border-box;
+    box-shadow: 3px 4px 10px black;
+    border-radius: 5px;
+    width: 90vw;
+    height: 30vh;
+    margin-left: 4vw;
+}
+
+#bgn3 {
+    margin-top: 5vh;
+    box-sizing: border-box;
+    box-shadow: 3px 4px 10px black;
+    border-radius: 5px;
+    width: 90vw;
+    height: 30vh;
+    margin-left: 4vw;
+}
+
+#Foot {
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    margin-top: 15vh;
+    padding-top: 5vh;
+    height: 40vh;
+}
+
+#F1 {
+    width: 25vw;
+    margin-left: 29vw;
+    display: inline-block;
+}
+
+#F1 p {
+    margin-left: 3vw;
+    font-size: 1.5vw;
+    margin-top: 5px;
+}
+
+#F1 ul li a {
+    display: block;
+    color: black;
+    margin-top: 5vh;
+    font-size: 16px;
+}
+
+#F1 li a i {
+    margin-right: 5px;
+}
+
+#F2 {
+    width: 15vw;
+    position: absolute;
+    margin-right: 20vw;
+    display: inline-block;
+}
+
+#F2 p {
+    margin-left: 3vw;
+    font-size: 1.5vw;
+    margin-top: 5px;
+}
+
+#F2 ul li a {
+    display: block;
+    color: black;
+    margin-top: 5vh;
+    font-size: 16px;
+}
+
+#F2 li a i {
+    margin-right: 5px;
+}
+
+.navv {
+    box-sizing: border-box;
+}
